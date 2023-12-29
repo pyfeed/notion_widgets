@@ -90,13 +90,13 @@ body{
 
     <div class="days"> 
         <div id="days" class="numbers "> </div>дней</div> 
-      <div class="hours"> 
+      <!--<div class="hours"> 
         <div  id="hours" class="numbers"> </div>часов</div> 
       <div class="minutes"> 
         <div  id="minutes" class="numbers"> </div>минут</div> 
       <div   class="seconds"> 
         <div id="seconds" class="numbers"> </div>секунд</div> 
-      </div>
+      </div>-->
 
 </div>
 
@@ -122,10 +122,10 @@ let timer = setInterval(function() {
   let seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
   // display
-  document.getElementById("days").innerHTML=дней
-  document.getElementById("hours").innerHTML=часов
-  document.getElementById("minutes").innerHTML=минут
-  document.getElementById("seconds").innerHTML=секунд
+  document.getElementById("days").innerHTML=days
+  //document.getElementById("hours").innerHTML=часов
+  //document.getElementById("minutes").innerHTML=минут
+  //document.getElementById("seconds").innerHTML=секунд
 
 
 
